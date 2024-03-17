@@ -1,0 +1,54 @@
+[
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "calculateage",
+        "kind": 2,
+        "importPath": "age-calculator",
+        "description": "age-calculator",
+        "peekOfCode": "def calculateage():\n    today = date.today\n    birthdate = date(int(yearEntry.get())),\n    int(monthEntry.get()) ,int(dayEntry.get())\n    age = today.year - birthdate.year - ((today.month,today.day)< (birthdate.month,birthdate.day))\n    Label(text=f\"{nameValue.get()} your age is {age}\").grid(row=6,column=1)\n    Label(text=\"Name\").grid(row=1,column=0,padx=90)\n    Label(text=\"Year\").grid(row=2,column=0)\n    Label(text=\"Month\").grid(row=3,column=0)\n    Label(text=\"Day\").grid(row=4,column=0)",
+        "detail": "age-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "age-calculator",
+        "description": "age-calculator",
+        "peekOfCode": "root = Tk()\nroot.geometry(\"700x500\")\nroot.title(\"age calculator\")\nphoto = PhotoImage(file=\"sample.png\")\nmyimage = Label(image = photo)\nmyimage.grid(row=0, column=1)\ndef calculateage():\n    today = date.today\n    birthdate = date(int(yearEntry.get())),\n    int(monthEntry.get()) ,int(dayEntry.get())",
+        "detail": "age-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "photo",
+        "kind": 5,
+        "importPath": "age-calculator",
+        "description": "age-calculator",
+        "peekOfCode": "photo = PhotoImage(file=\"sample.png\")\nmyimage = Label(image = photo)\nmyimage.grid(row=0, column=1)\ndef calculateage():\n    today = date.today\n    birthdate = date(int(yearEntry.get())),\n    int(monthEntry.get()) ,int(dayEntry.get())\n    age = today.year - birthdate.year - ((today.month,today.day)< (birthdate.month,birthdate.day))\n    Label(text=f\"{nameValue.get()} your age is {age}\").grid(row=6,column=1)\n    Label(text=\"Name\").grid(row=1,column=0,padx=90)",
+        "detail": "age-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "myimage",
+        "kind": 5,
+        "importPath": "age-calculator",
+        "description": "age-calculator",
+        "peekOfCode": "myimage = Label(image = photo)\nmyimage.grid(row=0, column=1)\ndef calculateage():\n    today = date.today\n    birthdate = date(int(yearEntry.get())),\n    int(monthEntry.get()) ,int(dayEntry.get())\n    age = today.year - birthdate.year - ((today.month,today.day)< (birthdate.month,birthdate.day))\n    Label(text=f\"{nameValue.get()} your age is {age}\").grid(row=6,column=1)\n    Label(text=\"Name\").grid(row=1,column=0,padx=90)\n    Label(text=\"Year\").grid(row=2,column=0)",
+        "detail": "age-calculator",
+        "documentation": {}
+    }
+]
